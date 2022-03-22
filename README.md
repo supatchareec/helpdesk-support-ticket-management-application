@@ -5,9 +5,14 @@
 
 A SPA-styled frontend application using React.js with  Ant design.
 
-You can run:
+Start project:
 ```
 cd .\ticket-management-web-application\
+yarn
+```
+
+You can run:
+```
 yarn start
 ```
 
@@ -20,10 +25,15 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 A RESTful-compliant API backend using Golang.
 
+Start project:
+```
+go build
+go get
+```
+
 You can run:
 ```
-cd .\ticket-management-api\
-go .\main.go
+go run main.go
 ```
 `GET` show all tickets : 
 [http://localhost:8080/tickgets](http://localhost:8080/tickgets)
